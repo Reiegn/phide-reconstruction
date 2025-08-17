@@ -6,7 +6,7 @@ This repository contains the code and data for my senior thesis project, "Recons
 
 The project explores potential dark energy signatures under the quintessence model using simulated proton–proton collisions. Events were generated with MadGraph5, Pythia, and Delphes, and analyzed using Python and ROOT.
 
-The final thesis paper (thesis.pdf) provides the complete research context, methodology, and results.
+The final thesis paper provides the complete research context, methodology, and results.
 
 
 Repository Structure
