@@ -1,4 +1,4 @@
-Senior Thesis: Reconstructing Scalar Dark Energy
+Reconstructing Scalar Dark Energy- A Collider-Based Simulation Study
 
 Overview
 
@@ -15,19 +15,12 @@ Histograms.py — Secondary script: generates histograms of results
 
 /data
 
-file1.dat — Input data file (simulation output subset)
-file2.dat — Input data file (simulation output subset)
+run_card.dat — Simulation run parameters (event counts, cuts, etc.)
+param_card.dat — Physics parameters for the simulated collisions (masses, widths, couplings, etc.)
 
-thesis.pdf — Full thesis paper
+Reconstructing Scalar Dark Energy- A Collider-Based Simulation Study - Edward Sahyoun.pdf — Full thesis paper
 
-Note: Original .root simulation outputs (several GB) are not included due to size constraints. See thesis.pdf for full results and analysis.
-
-Requirements
-
-Python 3.10+
-Packages: numpy, matplotlib, uproot (or ROOT if available)
-ROOT 6.32+ recommended for compatibility
-Install dependencies: pip install numpy matplotlib uproot
+Note: Original .root simulation outputs (several GB) are not included due to size constraints. See thesis pdf for full results and analysis.
 
 Usage
 
@@ -36,4 +29,4 @@ Collision events were originally simulated with MadGraph5, Pythia, and Delphes. 
 Run the main reconstruction script: python code/Reconstruction.py
 Generate histograms from the processed data: python code/Histograms.py
 
-(Visualizations and final analysis are included in thesis.pdf.)
+(Visualizations and final analysis are included in thesis pdf.)
