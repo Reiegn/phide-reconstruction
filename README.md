@@ -13,7 +13,7 @@ Repository Structure
 Reconstruction.py — Main analysis: reconstructing collision events
 Histograms.py — Secondary script: generates histograms of results
 
-/data
+/simulation_settings
 
 run_card.dat — Simulation run parameters (event counts, cuts, etc.)
 param_card.dat — Physics parameters for the simulated collisions (masses, widths, couplings, etc.)
